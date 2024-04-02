@@ -1,0 +1,19 @@
+body{
+    background: linear-gradient(14deg, #2da00e 0%, #ffffff 100%);
+}
+img{
+    float: right;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.left-bar{
+    grid-column: 1/3;
+}
+.centr{
+    grid-column: 3/11;
+}
+.right{
+    grid-column: 11/13;
+}
